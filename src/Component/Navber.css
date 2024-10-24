@@ -1,0 +1,16 @@
+.navber{
+@apply   p-4 bg-blue-400
+}
+.manu_log h2{
+    @apply text-4xl text-yellow-400
+}
+.manu_row{
+    @apply flex justify-between
+  
+}
+.main_manu ul{
+    @apply flex gap-5
+}
+.main_manu ul li a{
+    @apply text-2xl text-[rgba(89,43,43,0.89)] hover:text-white
+}

@@ -1,0 +1,54 @@
+/* Product.css */
+.filter-button {
+    color: #1e3a8a; /* Tailwind CSS blue-900 */
+    font-size: 1.125rem; /* Text-lg */
+    font-weight: 600; /* Font-semibold */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .filter-button:active {
+    transform: scale(1.1);
+  }
+  
+  .card-container {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  .image-container img {
+    border-radius: 8px;
+  }
+  
+  .badge {
+    background-color: #f97316; /* Tailwind CSS orange-500 */
+    color: white;
+    font-size: 0.875rem; /* Text-sm */
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+  }
+  
+  .description {
+    color: #4b5563; /* Tailwind CSS gray-700 */
+    margin: 0.5rem 0;
+  }
+  
+  .specs {
+    color: #4b5563; /* Tailwind CSS gray-700 */
+    margin-bottom: 0.75rem;
+  }
+  
+  .price-container .old-price {
+    text-decoration: line-through;
+    color: #9ca3af; /* Tailwind CSS gray-500 */
+  }
+  
+  .price-container .new-price {
+    color: #f97316; /* Tailwind CSS orange-500 */
+    font-size: 1.125rem; /* Text-lg */
+    font-weight: bold;
+  }
+  
